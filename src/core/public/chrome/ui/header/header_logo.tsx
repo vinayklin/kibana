@@ -99,7 +99,7 @@ export function HeaderLogo({ href, navigateToApp, ...observables }: Props) {
   return (
     <EuiHeaderLogo
       data-test-subj="logo"
-      iconType="logoElastic"
+      iconType="https://mk0wesecureappxd7u2i.kinstacdn.com/wp-content/uploads/2020/10/Group-5376.svg"
       onClick={(e) => onClick(e, forceNavigation, navLinks, navigateToApp)}
       href={href}
       aria-label={i18n.translate('core.ui.chrome.headerGlobalNav.goHomePageIconAriaLabel', {
