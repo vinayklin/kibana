@@ -39,21 +39,29 @@ export const Template: FunctionComponent<Props> = ({
   },
 }) => {
   const logo = (
-    <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="96.000000pt" height="101.000000pt" viewBox="0 0 96.000000 101.000000"
- preserveAspectRatio="xMidYMid meet">
-
-<g transform="translate(0.000000,101.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M0 673 l1 -338 239 -163 240 -163 218 147 c119 81 227 155 239 163
+    <svg
+      version="1.0"
+      xmlns="http://www.w3.org/2000/svg"
+      width="96.000000pt"
+      height="101.000000pt"
+      viewBox="0 0 96.000000 101.000000"
+      preserveAspectRatio="xMidYMid meet"
+    >
+      <g
+        transform="translate(0.000000,101.000000) scale(0.100000,-0.100000)"
+        fill="#000000"
+        stroke="none"
+      >
+        <path
+          d="M0 673 l1 -338 239 -163 240 -163 218 147 c119 81 227 155 239 163
 22 16 22 17 23 348 l0 332 -122 3 c-68 2 -284 4 -480 6 l-358 3 0 -338z m840
 67 c0 -127 -2 -140 -17 -140 -10 1 -169 47 -353 104 l-335 103 -3 37 -3 36
 355 0 356 0 0 -140z m-355 -168 l350 -107 3 -32 c3 -30 -3 -35 -170 -149 -95
 -65 -180 -118 -188 -118 -8 0 -93 54 -187 119 l-173 119 0 131 c0 108 4 146
-14 145 1 0 159 -49 351 -108z"/>
-</g>
-</svg>
-  
+14 145 1 0 159 -49 351 -108z"
+        />
+      </g>
+    </svg>
   );
   return (
     <html lang={locale}>
