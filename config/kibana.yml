@@ -127,3 +127,4 @@ opendistro_security.basicauth.login.title: "Please login to Cloudsnoop's Analyti
 #opendistro_security.basicauth.login.buttonstyle: ""
 opendistro_security.ui.basicauth.login.showbrandimage: true
 opendistro_security.ui.basicauth.login.brandimage: https://mk0wesecureappxd7u2i.kinstacdn.com/wp-content/uploads/2020/08/WeSecureApp-Logo-2.svg
+

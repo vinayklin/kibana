@@ -24,9 +24,9 @@ export const DEFAULT_APP_CATEGORIES = Object.freeze({
   kibana: {
     id: 'kibana',
     label: i18n.translate('core.ui.kibanaNavList.label', {
-      defaultMessage: 'Kibana',
+      defaultMessage: 'Menu',
     }),
-    euiIconType: 'logoKibana',
+    //euiIconType: 'logoKibana',
     order: 1000,
   },
   enterpriseSearch: {
